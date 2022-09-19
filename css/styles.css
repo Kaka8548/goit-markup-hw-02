@@ -44,6 +44,7 @@ body {
 
 .nav-links .link,
 .adress-links .link {
+  color: inherit;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
