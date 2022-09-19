@@ -148,8 +148,8 @@ body {
   cursor: pointer;
 }
 
-.projects .filter-btn:hover,
-.projects .filter-btn:focus {
+.portfolio .filter-btn:hover,
+.portfolio .filter-btn:focus {
   color: #ffffff;
   background-color: var(--main-color);
 }
