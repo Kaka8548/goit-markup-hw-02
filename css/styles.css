@@ -62,6 +62,10 @@ body {
 }
 
 /* мейн */
+.banner {
+  text-align: center;
+}
+
 .banner .heading {
   font-size: 44px;
   font-weight: 900;
@@ -92,6 +96,7 @@ body {
 
 .work .heading,
 .team .heading {
+  text-align: center;
   font-size: 36px;
   line-height: 1.2;
 }
