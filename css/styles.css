@@ -1,0 +1,134 @@
+:root {
+  --main-color: #2196f3;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+}
+
+/* загальні налаштування */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:visited {
+  color: inherit;
+}
+
+.link.active {
+  color: var(--main-color);
+}
+
+/* хедер */
+
+.logo {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: var(--main-color);
+}
+
+.nav-links .link,
+.adress-links .link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.adress-links .link {
+  color: var(--secondary-text-color);
+}
+
+.nav-links .link:hover,
+.nav-links .link:focus,
+.adress-links .link:hover,
+.adress-links .link:focus {
+  color: var(--main-color);
+}
+
+/* мейн */
+.banner .heading {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+  /*color: #ffffff (поки буде чорним, бо зливається з фоном)*/
+}
+
+.banner .order-btn {
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  background-color: var(--main-color);
+  border: none;
+}
+
+.features .feature {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.features .feature-descr {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.work .heading,
+.team .heading {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.team .name,
+.team .prof {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.team .name {
+  font-weight: 500;
+}
+
+.team .prof {
+  color: var(--secondary-text-color);
+}
+
+/* футер */
+
+.contacts .link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-style: normal;
+}
+
+/* .contacts .address { 
+  color: #ffffff;
+} 
+(поки буде чорним, бо зливається з фоном)
+*/
+.contacts .email,
+.contacts .number {
+  color: var(--secondary-text-color);
+}
+
+.contacts .email:hover,
+.contacts .email:focus,
+.contacts .number:hover,
+.contacts .number:focus {
+  color: var(--main-color);
+}
